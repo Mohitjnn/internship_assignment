@@ -19,9 +19,9 @@ import {
 
 export function CardWithForm() {
   return (
-    <Card className="hidden lg:block lg:w-[40%] p-4 lg:p-10 bg-black/60 backdrop-blur-xl text-white border-none">
+    <Card className=" w-full lg:w-[40%] p-4 lg:p-10 bg-white/10 lg:bg-black/60 backdrop-blur-xl text-white border-none">
       <CardHeader className="text-center">
-        <CardTitle className="text-2xllg:text-4xl font-bold">
+        <CardTitle className="text-2xl lg:text-4xl font-bold">
           Master Any Subject with Online Teachers
         </CardTitle>
         <p className="text-sm mt-2">
