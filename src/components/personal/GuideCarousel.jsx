@@ -37,7 +37,7 @@ export default function DarkThemeCardCarousel() {
         align: "center",
         loop: true,
       }}
-      className="w-full max-w-[90%] "
+      className="w-full max-w-[98%] lg:max-w-[90%] "
       setApi={setApi}
     >
       <div className="flex w-full space-x-3 justify-center items-center">
@@ -45,7 +45,7 @@ export default function DarkThemeCardCarousel() {
           <button
             key={index}
             onClick={() => goToSlide(index)}
-            className={` text-white text-2xl font-bold px-4 ${
+            className={` text-white lg:text-2xl font-bold px-4 mb-2 ${
               current === index ? "  border-b-2 border-b-white" : ""
             }`}
           >
@@ -60,7 +60,7 @@ export default function DarkThemeCardCarousel() {
               imageSrc="/Features.png"
               imageAlt={"abcd"}
               title="Title"
-              subtitle="lorem ipseum dorem lorem ipsem dorem"
+              subtitle="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae aut alias error nisi, adipisci officia sed nobis voluptatibus, dignissimos"
               buttonOneText="Browse Tutors"
               buttonTwoText="Watch Video"
             />

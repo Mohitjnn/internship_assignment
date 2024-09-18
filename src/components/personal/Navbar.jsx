@@ -34,7 +34,7 @@ function Navbar() {
 
   return (
     <div
-      className={`lg:sticky lg:top-0 lg:bg-black w-full flex flex-col xl:flex-row justify-between items-center px-4 lg:px-8 xl:px-14 z-30 h-fit text-white 
+      className={` fixed  lg:sticky lg:top-0 bg-black w-full flex flex-col xl:flex-row justify-between items-center px-4 lg:px-8 xl:px-14 z-30 h-fit text-white 
         ${Open ? "rounded-b-3xl" : ""}`}
     >
       {/* Logo */}
